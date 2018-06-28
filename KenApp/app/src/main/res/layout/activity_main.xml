@@ -1,0 +1,95 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout
+    android:background="@mipmap/img"
+    android:orientation="vertical"
+    xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    tools:context=".MainActivity">
+
+    <TextView
+        android:textColor="#960c1a"
+        android:textSize="30sp"
+        android:textStyle="bold"
+        android:id="@+id/tvOne"
+        android:layout_width="200dp"
+        android:layout_marginLeft="100dp"
+        android:paddingLeft="10dp"
+        android:layout_height="50dp"
+        android:text="Register Here" />
+
+    <EditText
+        android:id="@+id/edtName"
+        android:layout_width="300dp"
+        android:layout_height="wrap_content"
+        android:ems="10"
+        android:hint="Name here"
+        android:textColor="#131958"
+        android:textStyle="bold"
+    android:paddingLeft="10dp"
+    android:textSize="30sp"
+        android:inputType="textPersonName" />
+
+    <EditText
+        android:id="@+id/edtemail"
+        android:layout_width="300dp"
+        android:layout_height="wrap_content"
+        android:ems="10"
+        android:hint="Email Here"
+        android:inputType="textEmailAddress"
+        android:paddingLeft="10dp"
+        android:textColor="#131958"
+        android:textSize="30sp"
+        android:textStyle="bold" />
+
+    <EditText
+        android:textColor="#131958"
+        android:textStyle="bold"
+        android:paddingLeft="10dp"
+        android:textSize="30sp"
+        android:id="@+id/edtPhone"
+        android:layout_width="300dp"
+        android:layout_height="wrap_content"
+        android:ems="10"
+        android:hint="Phone Number Here"
+        android:inputType="phone" />
+
+    <EditText
+
+        android:textColor="#131958"
+        android:textStyle="bold"
+        android:paddingLeft="10dp"
+        android:textSize="30sp"
+        android:id="@+id/edtId"
+        android:layout_width="300dp"
+        android:layout_height="wrap_content"
+        android:ems="10"
+        android:hint="National Id Here"
+        android:inputType="number" />
+
+    <EditText
+        android:textColor="#131958"
+        android:textStyle="bold"
+        android:paddingLeft="10dp"
+        android:textSize="30sp"
+        android:id="@+id/edtpass"
+        android:layout_width="200dp"
+        android:layout_height="wrap_content"
+        android:ems="10"
+        android:hint="Enter your password"
+        android:inputType="textPassword" />
+
+    <Button
+        android:id="@+id/btnregstr"
+        android:layout_width="200dp"
+        android:layout_height="wrap_content"
+        android:background="#300b38"
+        android:text="Register"
+        android:textSize="30sp"
+        android:layout_marginLeft="100dp"
+        android:layout_marginTop="50dp"
+        android:textColor="#39b332" />
+
+</LinearLayout>

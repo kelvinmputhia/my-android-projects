@@ -1,0 +1,22 @@
+<resources>
+    <string name="app_name">Asimple List</string>
+    <string-array name="names">
+        <item>Nairobi</item>
+        <item>Kiambu</item>
+        <item>Muranga</item>
+        <item>Kirinyanga</item>
+        <item>Nyeri</item>
+        <item>Laikipia</item>
+        <item>Narok</item>
+        <item>Meru</item>
+        <item>Bomet</item>
+        <item>Kericho</item>
+        <item>Machakos</item>
+        <item>Busia</item>
+        <item>Kakamega</item>
+        <item>Homabay</item>
+
+
+    </string-array>
+
+</resources>

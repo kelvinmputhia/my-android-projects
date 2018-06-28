@@ -1,0 +1,108 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout
+    xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:background="#81ae28"
+    android:layout_height="match_parent"
+    tools:context=".MainActivity">
+
+    <TextView
+        android:id="@+id/tvAnswer"
+        android:layout_width="200dp"
+        android:layout_height="wrap_content"
+        android:layout_alignParentTop="true"
+        android:layout_centerHorizontal="true"
+        android:background="#a22ea4"
+        android:hint="Answer"
+        android:textAlignment="center"
+        android:textColor="#fff"
+        android:textColorHint="#300606"
+        android:textSize="30sp"
+        android:textStyle="bold"/>
+
+    <EditText
+        android:id="@+id/edtFnum"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_alignParentTop="true"
+        android:layout_centerHorizontal="true"
+        android:layout_marginTop="77dp"
+        android:ems="10"
+        android:hint="First Number"
+        android:inputType="numberDecimal"
+        android:textColor="#740e2d"
+        android:textColorHint="#ab3232"
+        android:textSize="30sp" />
+
+    <EditText
+        android:id="@+id/edtSnum"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_alignParentTop="true"
+        android:layout_centerHorizontal="true"
+        android:layout_marginTop="155dp"
+        android:ems="10"
+        android:hint="Second Number"
+        android:inputType="numberDecimal"
+        android:textColor="#740e2d"
+        android:textColorHint="#9b1a1a"
+        android:textSize="30sp" />
+
+    <Button
+        android:background="#be781557"
+        android:textColorHint="#30a39f"
+        android:textSize="30sp"
+        android:textStyle="bold"
+        android:id="@+id/btnAdd"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_alignParentStart="true"
+        android:layout_centerVertical="true"
+        android:layout_marginStart="49dp"
+        android:text="+" />
+
+    <Button
+
+        android:background="#be781557"
+        android:textColorHint="#30a39f"
+        android:textSize="30sp"
+        android:textStyle="bold"
+        android:id="@+id/btnSubtract"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_alignParentEnd="true"
+        android:layout_centerVertical="true"
+        android:layout_marginEnd="78dp"
+        android:text="-" />
+
+    <Button
+
+        android:background="#be781557"
+        android:textColorHint="#30a39f"
+        android:textSize="30sp"
+        android:textStyle="bold"
+        android:id="@+id/btnmutpl"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_alignParentBottom="true"
+        android:layout_alignStart="@+id/btnAdd"
+        android:layout_marginBottom="135dp"
+        android:text="*" />
+
+    <Button
+
+        android:background="#be781557"
+        android:textColorHint="#30a39f"
+        android:textSize="30sp"
+        android:textStyle="bold"
+        android:id="@+id/btndivide"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_alignParentEnd="true"
+        android:layout_alignTop="@+id/btnmutpl"
+        android:layout_marginEnd="85dp"
+        android:text="/" />
+
+
+</RelativeLayout>

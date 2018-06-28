@@ -1,0 +1,38 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout
+    xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:background="#204b14"
+    tools:context=".MainActivity">
+
+
+    <Button
+        android:padding="10dp"
+        android:textSize="30sp"
+        android:textStyle="bold"
+        android:background="#801b1b"
+        android:id="@+id/btnoffline"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_alignParentBottom="true"
+        android:layout_alignParentStart="true"
+        android:layout_marginBottom="118dp"
+        android:layout_marginStart="19dp"
+        android:text="Offline" />
+
+    <Button
+        android:padding="10dp"
+        android:textSize="30sp"
+        android:textStyle="bold"
+        android:background="#4d0e11"
+        android:id="@+id/btnonline"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_alignParentEnd="true"
+        android:layout_alignTop="@+id/btnoffline"
+        android:layout_marginEnd="14dp"
+        android:text="Online" />
+</RelativeLayout>
