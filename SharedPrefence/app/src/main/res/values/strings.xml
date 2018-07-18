@@ -1,0 +1,7 @@
+<resources>
+    <string name="app_name">SharedPrefence</string>
+    <string name="choose_color_for_the_app">choose color for the app</string>
+    <string name="yellow">Yellow</string>
+    <string name="green">Green</string>
+    <string name="red">Red</string>
+</resources>

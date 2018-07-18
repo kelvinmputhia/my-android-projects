@@ -21,8 +21,6 @@ public class MainActivity extends AppCompatActivity {
         buttonOffline.setOnClickListener(new View.OnClickListener() {
             @Override
             public void onClick(View view) {
-                //This is how to set a toast
-                //Toast.makeText(MainActivity.this, "Offline clicked", Toast.LENGTH_SHORT).show(
                 Intent offline = new Intent(MainActivity.this,OffLineActivity.class);
                 startActivity(offline);
             }

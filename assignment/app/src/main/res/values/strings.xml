@@ -1,0 +1,23 @@
+<resources>
+    <string name="app_name">assignment</string>
+    <string-array name="names">
+        <item>cake</item>
+        <item>Bettenberg</item>
+        <item>chocolate</item>
+        <item>ice cream</item>
+        <item>lemon</item>
+        <item>pumpkin</item>
+        <item>cookie</item>
+        <item>rice</item>
+        <item>meat</item>
+        <item>ugali</item>
+        <item>chips</item>
+        <item>pizza</item>
+        <item>hot dog</item>
+        <item>samosa</item>
+
+
+    </string-array>
+
+
+</resources>

@@ -16,6 +16,6 @@ public class OnlineActivity extends AppCompatActivity {
         webOnline =findViewById(R.id.webOnline);
         WebSettings setting =webOnline.getSettings();
         setting.setJavaScriptEnabled(true);
-        webOnline.loadUrl("https://www.emobilis.ac.ke");
+        webOnline.loadUrl("https://www.youtube.com");
     }
 }
